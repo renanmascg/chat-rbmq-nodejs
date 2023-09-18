@@ -19,7 +19,7 @@ export class AppController {
   async postUser() {
     return this.authService.send(
       {
-        cmd: 'get-user',
+        cmd: 'post-user',
       },
       {},
     );
